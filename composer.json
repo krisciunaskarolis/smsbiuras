@@ -1,0 +1,24 @@
+{
+  "name" : "krisciunaskarolis/smsbiuras",
+  "description" : "PHP client for Smsbiuras.lt API",
+  "version" : "1.0.0",
+  "keywords" : ["smsbiuras", "sms sending", "sms-gateway"],
+  "autoload": {
+    "psr-4": { "Krisciunas\\SmsBiuras\\": "src/" }
+  },
+  "authors" : [
+    {
+      "name" : "Karolis Kriščiūnas",
+      "email" : "karolis.krisciunas@gmail.com"
+    }
+  ],
+  "license" : "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10",
+    "symplify/easy-coding-standard": "^11.2",
+    "phpunit/phpunit": "^10"
+  }
+}
